@@ -1,76 +1,9 @@
 body{
     #main{
-      background-color: #A7CCCA;
-     font-family: Arial, He'vetica, sans-serif;
-     color: #000000;
-     border-width: 30px;
-     border-style: solid;
-     padding: 150px;
+     background-color: #A7CCCA;
     }
-    
-   h1 {
-     font-size: 500%;
-   }
-     p{
-       font-size: 120%;
-     }
-   a{
-     color-theme:   
-     text-decoration: none;
-   }
-   lowercase{
-     text-transform: lowercase;
-   }
-   uppercase{
-     text-transform: uppercase;
-   }
-   .right{
-     float: right;
-   }
-   img.snapshot {
-     border-width: 1px;
-     border-style: solid;
-     border-color: #fffff;
-   }
-   <img src="photo YLG.png" width="245" height="245" alt="photo" />
-   
-   #container {
-     width:80%
-     marging: auto;
-     marging-top:30px;
-   }
-   #priority {
-     text-align: center;
-     text-decoration: none;
-   }
-   #footer {
-     text-align: center;
-     padding: 15px;
-   }
-   #footer img{
-     maring: 5px;
-   }
-   #subtitle {
-     text-align: center;
-     font-size: 200%;
-     font-style: bolt;
-   }
-   #subtitle2 {
-     text-align: center;
-     font-size: 130%;
-     font-style: bolt
-   }
-   #subtitle3 {
-     text-align: left;
-     font-size: 80%;
-     font-style: bolt;
+    .img-git logo {
+       width: 100px;
+    }
    }
     
-     #subtitle4 {
-     text-align: left;
-     font-size: 120%;
-     font-style: solid;
-   }
-    
-   
-   
