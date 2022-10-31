@@ -1,9 +1,42 @@
 body{
-    #main{
-     background-color: #A7CCCA;
+     background-color: #86ded4;
+     color:rgba(221, 102, 205, 0.933);
+     font size: 1em;
+     font weight: normal;
+     line height: 1.5em
+     margin:0;
     }
     .img-git logo {
        width: 100px;
     }
+    .container{
+      width: 80%;
+      /* using % instead of 500px or 960px, the sizing is responsive to changing window sizing. */
+      margin:auto;
+  }
+    /*Defaults for h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.65em;
+  margin-bottom: 0.65em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}*/
+h2{
+   color:black;
+   font-size: 1.5em;    
+   font-weight: 500;
+   color-adjust:initial;
+   /*Defaults
+ display: block;
+ font-size: 1.5em;
+ margin-top: 0.83em;
+ margin-bottom: 0.83em;
+ margin-left: 0;
+ margin-right: 0;
+ font-weight: bold;*/
+}
+
    }
     
