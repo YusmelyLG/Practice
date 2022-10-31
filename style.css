@@ -15,26 +15,22 @@ body{
         margin:auto;
         margin-top:30px;
     }
+ h1{
+        color:black;
+        font-size: 1.5em;    
+        font-weight: 500;
+        print-color-adjust: initial;
+      }
   h2{
     color:black;
     font-size: 1.5em;    
     font-weight: 500;
     print-color-adjust: initial;
   }
-   .box-1{
-    text-align: center;
-    background-color: darkslategray;
-    color: floralwhite;
-    border: 5px black solid;
-    border-width: 3 px;
-    border-bottom-width: 10px;
-    padding: 20px;
-   } 
-   .box-2{
-    text-align: center;
-    padding:20px;
-    margin: 20px 0;
-}
+    .contenedor {
+    display: flex;
+    justify-content: center;
+    }
 .definitions{
     border: 1px dimgray dotted;
     border-radius: 15px;   
@@ -57,15 +53,4 @@ body{
 }
 .details li:last-child{
     padding-bottom: 1.2em;
-}
-h3{
-  display: inline;
-  font-size: 1em;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: normal;
-  color: darkblue;
-  font-weight: 100;
 }
