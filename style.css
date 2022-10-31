@@ -5,8 +5,11 @@ body{
      font-size:1em;
      font-weight:normal;
      line-height:1.5em;
-     margin:center
-     padding:100px
+     margin:center;
+     padding-top:300px;
+     padding-bottom: 250px;
+     padding-left: 300px;
+     padding-right: 300px;
     }
     .img-git {
        width: 100px;
