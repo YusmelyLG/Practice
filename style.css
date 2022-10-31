@@ -1,11 +1,12 @@
 body{
-     background-color: #6ba7d2;
+     background-color: #5ea3d5;
      color:000000;
      font-family: 'Courier New', Courier, monospace;
      font-size:1em;
      font-weight:normal;
      line-height:1.5em;
-     margin:center;
+     margin:center
+     padding:100px
     }
     .img-git {
        width: 100px;
