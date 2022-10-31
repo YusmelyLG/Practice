@@ -9,34 +9,32 @@ body{
     .img-git logo {
        width: 100px;
     }
-    .container{
-      width: 80%;
-      /* using % instead of 500px or 960px, the sizing is responsive to changing window sizing. */
-      margin:auto;
+      .container{
+        width: 80%;
+        /* using % instead of 500px or 960px, the sizing is responsive to changing window sizing. */
+        margin:auto;
+    }
+      /*Defaults for h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    }*/
+  h2{
+    color:black;
+    font-size: 1.5em;    
+    font-weight: 500;
+    color-adjust:ancent color;
   }
-    /*Defaults for h1 {
+    /*Defaults
   display: block;
-  font-size: 2em;
-  margin-top: 0.65em;
-  margin-bottom: 0.65em;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
   margin-left: 0;
   margin-right: 0;
-  font-weight: bold;
-}*/
-h2{
-   color:black;
-   font-size: 1.5em;    
-   font-weight: 500;
-   color-adjust:initial;
-   /*Defaults
- display: block;
- font-size: 1.5em;
- margin-top: 0.83em;
- margin-bottom: 0.83em;
- margin-left: 0;
- margin-right: 0;
- font-weight: bold;*/
-}
-
-   }
+  font-weight: bold;*/
     
