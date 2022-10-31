@@ -15,6 +15,9 @@ body{
         width: 80%;
         margin:auto;
         margin-top:30px;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
     }
  h1{
         color:black;
@@ -28,10 +31,6 @@ body{
     font-weight: 500;
     print-color-adjust: initial;
   }
-    .contenedor {
-    display: flex;
-    justify-content: center;
-    }
 .definitions{
     border: 1px dimgray dotted;
     border-radius: 15px;   
