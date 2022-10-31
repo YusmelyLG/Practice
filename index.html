@@ -17,10 +17,31 @@
         </div>
         <div class = "definitions">
         <class="command">
-            <li> :pencil2: Git init
+            :pushpin:Git init
                 <ul class = "details">
                     <li>Initialize a local Git repository </li>
                     <li> syntaxis: <em>git init </em></li>
+                </ul>
+            :pencil2:Git Commit
+                <ul class = "details">
+                    <li>Records a snapshot of the file permanently in the version history.</li>
+                    <li><h3>git commit -m '<em>comment explaining changes since last commit </em>'</h3></li></li>
+                </ul>
+            <li>Git Push
+                <ul class = "details">
+                    <li>Push changes to remote repository (remembered branch)</li>
+                    <li><h3>git push<em>variableName branchName</em></h3></li>
+                </ul>
+            </li>
+            <li>Git Pull
+                <ul class = "details">
+                    <li>Update local repository to the newest commit.</li>
+                    <li><h3>git pull <em>https://github.com/example/example.git</em></h3> </li>
+                </ul>
+            </li>
+            <li>Git Revert
+                <ul class = "details">
+                    <li>Revert commmit changes.</li>
                 </ul>
             </li>
             <li>Git Add
@@ -29,16 +50,23 @@
                     <li><h3>git add <em>[file name]]</em></h3></li>
                 </ul>
             </li>
-            <li>Git Commit
+            <li>Git Clone
                 <ul class = "details">
-                    <li>Records a snapshot of the file permanently in the version history.</li>
-                    <li><h3>git commit -m '<em>comment explaining changes since last commit </em>'</h3></li></li>
+                    <li>Copies a repository from an existing URL.</li>
+                    <li><h3>git clone repo_url<em>https://github.com/example/example.git</em></h3></li>
                 </ul>
             </li>
-            <li>Git Push
+            <li>Git Merge
                 <ul class = "details">
-                    <li>Push changes to remote repository (remembered branch)</li>
-                    <li><h3>git push<em>variableName branchName</em></h3></li>
+                    <li>The history of the specified branch is merged into the current branch with this command.</li>
+                    <li>Example: <h3>git merge <em>branchName</em></h3></li>
+                </ul>
+            </li>
+            <li>Git Config
+                <ul class = "details">
+                    <li>Sets the author name and email address to be used with the commit command.</li>
+                    <li><h3>git config --global user.name '<em>username </em>'</h3></li>
+                    <li><h3> git config --global user.email '<em>user@email.com </em>'</h3></li>
                 </ul>
             </li>
             <li>Git Status
@@ -46,10 +74,14 @@
                     <li>Check status (It will inform us of Gits thoughts and the state of our repository as seen by Git.)
                     Lists all files, stating files that have changes to be committed, or files that need to be added to staging area.</li>
                     <li><h3>git status</h3></li>
-                </ul>
-                
+                </ul>   
             </li>
-
+            <li>Git Remove
+                <ul class = "details">
+                    <li>Removes individual files or a collection of files from the staging area and the working directory of the current branch.</li>
+                    <li><h3>git rm <em>exampleFile.txt</em></h3></li>
+                </ul>
+            </li>
         </div>
     </body>
     </html> 
