@@ -1,4 +1,8 @@
 body {
+  background-image: url(Img/Page.jpg);
+  background-repeat: repeat-y;
+  }
+  
   #boxed {
     background: #cfc;
     padding: 10px;
@@ -7,6 +11,31 @@ body {
   .img-git {
     width: 100px;
   }
+  .git{
+    position:fixed;
+    left: 50;
+    margin-top: 0;
+    }
+  .GitHub{
+    position:fixed;
+    margin-right: 50;
+    top: 0;
+    }
+
+  h1, h3, h5{
+    font-family: Poppins, sans-serif;
+    margin:0;   
+    }
+  h1{
+    font-size: 4rem;
+   }
+  h3{
+    font-size: 2rem;
+   }
+  h5{
+    font-size: 1rem;
+   }
+
   .container{
     width: 100%;
     margin:auto;
@@ -14,34 +43,68 @@ body {
     display: flex;
     justify-content: center;
 } 
-#contentinfo {
-  line-height: 20px;
-  margin: 30px;
-  padding-bottom: 20px;
-  text-align: justify;
-  width: 140px;
-  color: rgba(3, 1, 1, 0.945);
-}
-h1{
-    color:black;
-    font-size: 1.5em;    
-    font-weight: 500;
-    print-color-adjust: initial;
+ .GitSection{
+    border-color: #1041d7;
+    border-width: 1rem;
+    border-style: single;
+    padding:2rem;
+    background-image: url();
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 6rem;
+    margin-right: 2rem;
+    margin-top: 6rem;
   }
-.definitions{
-    border: 1px dimgray dotted;
-    border-radius: 15px;
-  }  
-  .command {
-    line-height: 1.4em;
-    padding-top: 8px;
-    font-weight: 500;
+
+  .margins{
+      margin-left: 8rem;
+      margin-right:2rem;
+      margin-top: 1rem;
+  }
+
+  li {
+  font-family: Verdana, Geneva;
+  }
+ 
+  nav a{
+  text-decoration:none;
+  color:rgb(9, 3, 3);
+  }
+
+  nav a:visited{
+  text-decoration: none;
+  color: black;
+  }
+
+  nav a:active{
+  text-decoration: none;
+  color: black;
+  }
+
+  nav a:link{
+  text-decoration: none;
+  color: black;
+  }
+
+  nav a:hover{
+  font-weight: bold;
+  }
+
+  nav ul{
+  list-style-image:url('Images/arrow.svg');
+  }
+
+p {
+font-family: Poppins, sans-serif;
+color:darkgrey;
+text-align: end;
 }
-.details li::marker{
-    color: black;
-    font-size: 1em;  
-    font-weight: 100;
-    line-height: 1.4em;
-    padding-top: 0px; 
- }
-}
+
+nav li{display: inline;
+  margin: .1rem;
+  padding: .1rem;
+  border-radius: 1em;
+  border-color: black;
+  border-style:solid;
+      }
+
