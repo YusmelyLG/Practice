@@ -3,17 +3,6 @@ body {
   background-repeat: repeat-y;
   }
 
-  .git{
-    position:fixed;
-    left: 50;
-    margin-top: 0;
-    }
-  .GitHub{
-    position:fixed;
-    margin-right: 50;
-    top: 0;
-    }
-
   h1, h3, h5{
     font-family: Poppins, sans-serif;
     margin:0;   
@@ -99,4 +88,13 @@ nav li{display: inline;
   border-color: black;
   border-style:solid;
       }
-
+.git{
+  position:fixed;
+  left: 50;
+  margin-top: 0;
+  }
+  .GitHub{
+  position:fixed;
+  margin-right: 50;
+  top: 0;
+  }
