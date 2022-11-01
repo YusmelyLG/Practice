@@ -8,9 +8,7 @@ body {
     padding: 10px;
     border: 1px solid green;
   }
-  .img-git {
-    width: 100px;
-  }
+
   .git{
     position:fixed;
     left: 50;
