@@ -1,5 +1,7 @@
 body {
-  .boxed {
+  #boxed {
+    background: #cfc;
+    padding: 10px;
     border: 1px solid green;
   }
   .img-git {
