@@ -7,4 +7,41 @@ body {
   .img-git {
     width: 100px;
   }
+  .container{
+    width: 100%;
+    margin:auto;
+    margin-top:40px;
+    display: flex;
+    justify-content: center;
+} 
+#contentinfo {
+  line-height: 20px;
+  margin: 30px;
+  padding-bottom: 20px;
+  text-align: justify;
+  width: 140px;
+  color: rgba(3, 1, 1, 0.945);
+}
+h1{
+    color:black;
+    font-size: 1.5em;    
+    font-weight: 500;
+    print-color-adjust: initial;
+  }
+.definitions{
+    border: 1px dimgray dotted;
+    border-radius: 15px;
+  }  
+  .command {
+    line-height: 1.4em;
+    padding-top: 8px;
+    font-weight: 500;
+}
+.details li::marker{
+    color: black;
+    font-size: 1em;  
+    font-weight: 100;
+    line-height: 1.4em;
+    padding-top: 0px; 
+ }
 }
