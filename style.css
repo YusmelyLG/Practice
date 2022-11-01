@@ -2,12 +2,6 @@ body {
   background-image: url(Img/Page.jpg);
   background-repeat: repeat-y;
   }
-  
-  #boxed {
-    background: #cfc;
-    padding: 10px;
-    border: 1px solid green;
-  }
 
   .git{
     position:fixed;
