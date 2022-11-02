@@ -46,7 +46,9 @@ body {
   li {
   font-family: 'Courier New', Courier, monospace
   }
- 
+  em{
+    padding: 200%;
+  }
   nav a{
   text-decoration:none;
   color:rgb(9, 3, 3);
