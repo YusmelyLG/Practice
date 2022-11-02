@@ -4,21 +4,21 @@ body {
   }
 
   h1, h3, h5{
-    font-family: Poppins, sans-serif;
+    font-family:'Courier New', Courier, monospace
     margin:0;   
     }
   h1{
-    font-size: 4rem;
+    font-size: 400%;
    }
   h3{
-    font-size: 2rem;
+    font-size: 200%;
    }
   h5{
-    font-size: 1rem;
+    font-size: 100%;
    }
 
   .container{
-    width: 100%;
+    width:100%;
     margin:auto;
     margin-top:40px;
     display: flex;
@@ -26,25 +26,25 @@ body {
 } 
  .GitSection{
     border-color: #1041d7;
-    border-width: 1rem;
+    border-width: 100%;
     border-style: single;
-    padding:2rem;
+    padding:200%;
     background-image: url();
     background-size: 100%;
     background-repeat: no-repeat;
-    margin-left: 6rem;
-    margin-right: 2rem;
-    margin-top: 6rem;
+    margin-left: 600%;
+    margin-right: 200%;
+    margin-top: 600%;
   }
 
   .margins{
-      margin-left: 8rem;
-      margin-right:2rem;
-      margin-top: 1rem;
+      margin-left: 800%;
+      margin: right 200%;;
+      margin-top: 100%;
   }
 
   li {
-  font-family: Verdana, Geneva;
+  font-family: 'Courier New', Courier, monospace
   }
  
   nav a{
@@ -72,29 +72,29 @@ body {
   }
 
   nav ul{
-  list-style-image:url('Images/arrow.svg');
+  list-style-type: circle;
   }
 
 p {
-font-family: Poppins, sans-serif;
+font-family: 'Courier New', Courier, monospace;
 color:darkgrey;
 text-align: end;
 }
 
 nav li{display: inline;
-  margin: .1rem;
-  padding: .1rem;
-  border-radius: 1em;
+  margin: 100%;
+  padding: 100%;
+  border-radius: 100%;
   border-color: black;
   border-style:solid;
       }
 .git{
-  position:fixed;
+  object-position: top;
   left: 50;
   margin-top: 0;
   }
   .GitHub{
-  position:fixed;
+  object-position: right-top;
   margin-right: 50;
   top: 0;
   }
