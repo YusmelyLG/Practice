@@ -3,37 +3,112 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <style>
+        body{
+          background-color: #CAEAE4;
+        }
+    </style>
     <!--Tittle-->
-        <title>GIT Commands</title>
         <link rel="sylesheet" type="text/css" href="style.css">
     </head>
 
-    <body>
+    <body>    
     <!--Image-->
-    <div class="Git">
-       <img src="Img/git.jpeg" alt="git" width="300rem">  
-    </div>
+    <img style="float:left" src="Img/Git no color.png" alt="gitlogo" width="140px" height="100px">  
+    <div style="float:left; margin-left:10px">
 
-    <div class="GitHub">
-       <img src="Img/GitHub-Mark-32px.png" alt="github" width="100rem">  
-    </div>
+        <h1>GIT Commands</h1>
+        <h2><strong>Commun</strong> <em>used</em> <strong>Git Commnads</strong> <em>and what they do.</em></h2>
+        <h5>by YusmelyLG</h5>
 
-    <div class="backgrown-image"> 
-        <img src="Img/Page.jpg" alt="page" width="500%">    
     </div>
-      
-    <!--Git and Nav-->
-    <div class="GitSection">
-        <h1>
-            GIT Commands
-        </h1>
-        <div class="subtitle"
-           <h2><strong>Commun</strong> <em>used</em> <strong>Git Commnads</strong> <em>and what they do.</em></h2>
-        </div>
-        <h5>
-            by YusmelyLG
-        </h5>
+    <img style="float:center" src="Img/Octocat.png" alt="gitlogo" width="140px" height="100px">  
+    <div style="float:left; margin-left:10px">
+    <div style="clear:both"></div>
+
+    <!--Header-background-->
+    <first section-style="">
+        <img style="background-image: none;" src="Img/Blue code page.png" alt="code in blue color" width="900px" height="200px" position="center"> 
+        <tr>
+            <h1>GIT Commands</h1>
+            <h2><strong>Commun</strong> <em>used</em> <strong>Git Commnads</strong> <em>and what they do.</em></h2>
+            <h5>by YusmelyLG</h5>
+        </tr>
+    <!--Main section-->
+    <div class="main" id="setup">
+    <tr>
+        <!--Creating-->
+    <div class="margins" id="setup">
+        <h3>
+          Creating
+        </h3>
+        <ul>
+          <li>Git Init :point_right: Initialize a local Git repository</li>
+                <em>git init </em>
+          <li>Git Clone :point_right: Copies a repository from an existing URL.</li>
+                <em>git clone repo_url</em> https://github.com/example/example.Git
+        </ul>
+      </div>
+        <!--Share & Update-->
+    <div class="margins" id="s&u">
+       <h3>
+          Share & Update
+       </h3>
+       <ul>
+        <li>Git Push :point_right: Push changes to remote repository (remembered branch)</li>
+             <em>git push</em> variable Name branch Name
+        <li>Git Pull :point_right: Update local repository to the newest commit.</li>
+             <em>git pull </em>https://github.com/example/example.git
+        <li>Git Reset [file] :point_right: unstage changes to a file while retaining the changes in your working directory</li>
+             <em>git reset </em> 
+        <li>Git Add [file name] :point_right: Saves your changes in a file to the staging area.To add a single file to GitHub</li>
+             <em> git add [file name]</em>
+       </ul>
+    </div>
+  
+      <!--Stage-->
+      <div class="margins" id="s">
+       <h3>
+          Stage
+       </h3>
+       <ul>
+         <li>Git Commit :point_right: Records a snapshot of the file permanently in the version history. </li>
+             <em>git commit - m</em> (comment explaining changes since last commit)
+         <li>Git Status :point_right: Check status (It will inform us of Gits thoughts and the state of our repository as seen by Git.)</li>
+             <em>git status</em>
+         <li>Git Revert :point_right: Revert commmit changes.</li>
+             <em>git revert</em>
+         <li>Git Remove :point_right: Removes individual files or a collection of files from the staging area and the working directory of the current branch.</li>
+             <em>git rm File.txt</em>
+       </ul>
+      </div>
+  
+      <!--Merge & Review-->
+      <div class="margins" id="m&r">
+      <h3>
+          Merge & Review
+      </h3>
+      <ul>
+        <li>Git Merge :point_right: The history of the specified branch is merged into the current branch with this command.</li>
+            <em>git merge branch Name</em>
+        <li>Git Config :point_right: <li>Sets the author name and email address to be used with the commit command.</li>
+            '<em>git config --global user.name </em>'username'
+            '<em>git config --global user.email</em> 'user@email.com'>
+        <li>Git Branch :point_right: lists all your branches an * will indicate your current branch </li>
+            '<em>git branch</em>
+      </ul>
+      </div>
+    </div>
+  
+      <!--Footer-->
+      <div class="footer">
+          <p>Yusmely Lozano Gonzalez     November,2022 </p>  
+      </div>
+    </tr>
+    
+    
+<!--<img class="ImgPage"-->
+    <div class="--Navegation-menu--" id="setup">
         <nav>
             <ul>
                 <li>
@@ -52,72 +127,6 @@
         </nav>
     </div>
     
-    <!--Setup-->
-    <div class="margins" id="setup">
-      <h3>
-        Creating
-      </h3>
-      <ul>
-        <li>Git Init :point_right: Initialize a local Git repository</li>
-              <em>git init </em>
-        <li>Git Clone :point_right: Copies a repository from an existing URL.</li>
-              <em>git clone repo_url</em> https://github.com/example/example.Git
-      </ul>
-    </div>
-
-    <!--Basics-->
-    <div class="margins" id="s&u">
-     <h3>
-        Share & Update
-     </h3>
-     <ul>
-      <li>Git Push :point_right: Push changes to remote repository (remembered branch)</li>
-           <em>git push</em> variable Name branch Name
-      <li>Git Pull :point_right: Update local repository to the newest commit.</li>
-           <em>git pull </em>https://github.com/example/example.git
-      <li>Git Reset [file] :point_right: unstage changes to a file while retaining the changes in your working directory</li>
-           <em>git reset </em> 
-      <li>Git Add [file name] :point_right: Saves your changes in a file to the staging area.To add a single file to GitHub</li>
-           <em> git add [file name]</em>
-     </ul>
-    </div>
-
-    <!--Stage-->
-    <div class="margins" id="s">
-     <h3>
-        Stage
-     </h3>
-     <ul>
-       <li>Git Commit :point_right: Records a snapshot of the file permanently in the version history. </li>
-           <em>git commit - m</em> (comment explaining changes since last commit)
-       <li>Git Status :point_right: Check status (It will inform us of Gits thoughts and the state of our repository as seen by Git.)</li>
-           <em>git status</em>
-       <li>Git Revert :point_right: Revert commmit changes.</li>
-           <em>git revert</em>
-       <li>Git Remove :point_right: Removes individual files or a collection of files from the staging area and the working directory of the current branch.</li>
-           <em>git rm File.txt</em>
-     </ul>
-    </div>
-
-    <!--Review & Merge-->
-    <div class="margins" id="m&r">
-    <h3>
-        Merge & Review
-    </h3>
-    <ul>
-      <li>Git Merge :point_right: The history of the specified branch is merged into the current branch with this command.</li>
-          <em>git merge branch Name</em>
-      <li>Git Config :point_right: <li>Sets the author name and email address to be used with the commit command.</li>
-          '<em>git config --global user.name </em>'username'
-          '<em>git config --global user.email</em> 'user@email.com'>
-      <li>Git Branch :point_right: lists all your branches an * will indicate your current branch </li>
-          '<em>git branch</em>
-    </ul>
-    </div>
-
-    <!--Footer-->
-    <div class="footer">
-        <p>Yusmely Lozano Gonzalez     November,2022 </p>  
-    </div>
+    
 </body>
 </html> 

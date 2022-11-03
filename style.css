@@ -1,7 +1,19 @@
 body {
-  background-image: url(Img/Page.jpg);
-  background-repeat: repeat-y;
-  }
+  .header list-style-image: ;
+}
+p{
+  background-image: url("Img/Blue\ code\ page.png")
+}
+  
+  /* Container holding main section */
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(10, 7, 7);
+  border-color: black;
+  border-width: 50px;
+}
+
 
   h1, h3, h5{
     font-family:'Courier New', Courier, monospace;
@@ -17,37 +29,11 @@ body {
     font-size: 100%;
    }
 
-  .container{
-    width:100%;
-    margin:auto;
-    margin-top:40px;
-    display: flex;
-    justify-content: center;
-} 
- .GitSection{
-    border-color: #1041d7;
-    border-width: 100%;
-    border-style: single;
-    padding:200%;
-    background-image: url();
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-left: 600%;
-    margin-right: 200%;
-    margin-top: 600%;
-  }
-
-  .margins{
-      margin-left: 800%;
-      margin: right 200%;;
-      margin-top: 100%;
-  }
-
   li {
   font-family: 'Courier New', Courier, monospace
   }
   em{
-    padding: auto;
+    padding: 200%;
   }
   nav a{
   text-decoration:none;
@@ -64,39 +50,19 @@ body {
   color: black;
   }
 
-  nav a:link{
-  text-decoration: none;
-  color: black;
-  }
-
   nav a:hover{
   font-weight: bold;
   }
 
   nav ul{
-  list-style-type: circle;
+  list-style-type: ;
   }
 
-p {
-font-family: 'Courier New', Courier, monospace;
-color:darkgrey;
-text-align: end;
-}
-
 nav li{display: inline;
-  margin: 100%;
-  padding: 100%;
-  border-radius: 100%;
+  margin: 300%;
+  padding: 300%;
+  border-radius: 300%;
   border-color: black;
   border-style:solid;
       }
-.git{
-  object-position: top;
-  left: 50;
-  margin-top: 0;
-  }
-  .GitHub{
-  object-position: right-top;
-  margin-right: 50;
-  top: 0;
-  }
+
