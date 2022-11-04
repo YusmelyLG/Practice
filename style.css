@@ -1,24 +1,12 @@
 body {
-  .header list-style-image: ;
-}
-p{
-  background-image: url("Img/Blue\ code\ page.png")
-}
-  
-  /* Container holding main section */
-.container {
-  position: relative;
-  text-align: center;
-  color: rgb(10, 7, 7);
-  border-color: black;
-  border-width: 50px;
+  background-color: lightblue;
 }
 
-
-  h1, h3, h5{
-    font-family:'Courier New', Courier, monospace;
+  h1, h3,{
+    font-family:Arial, Helvetica, sans-serif;
     margin:0;   
     }
+
   h1{
     font-size: 400%;
    }
@@ -27,42 +15,31 @@ p{
    }
   h5{
     font-size: 100%;
-   }
+  }
 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #244b75;
+  }
+  
   li {
-  font-family: 'Courier New', Courier, monospace
+    float: left;
   }
-  em{
-    padding: 200%;
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
-  nav a{
-  text-decoration:none;
-  color:rgb(9, 3, 3);
-  }
-
-  nav a:visited{
-  text-decoration: none;
-  color: black;
-  }
-
-  nav a:active{
-  text-decoration: none;
-  color: black;
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
   }
 
-  nav a:hover{
-  font-weight: bold;
-  }
-
-  nav ul{
-  list-style-type: ;
-  }
-
-nav li{display: inline;
-  margin: 300%;
-  padding: 300%;
-  border-radius: 300%;
-  border-color: black;
-  border-style:solid;
-      }
 
