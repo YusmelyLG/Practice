@@ -1,12 +1,27 @@
-# Practice
- This is a test excersise. 
-## Description
+# 👀 Closeup to coding
+ This is a test exercise
 
-- 👀 Closeup to coding
-- ❗️Error detection
--  💻 Practicing
--  🌱 Learning from scratch
--  ⚠️ 404 page
+💻 Practicing
+
+🌱 Learning from scratch
+
+## 🔭 Closeup to coding
+- Error detection ❗️
+- 404 page ⚠️
+- My CSS skill 
+- My next blog
+
+## ✏️ Practiced
+- HTML
+- CSS
+
+## Motivational 💬: 
+✍️ “Learning to code is learning to create and innovate.”
+         —Enda Kenny, Taoiseach, Ireland
+
+
+
+
 
 
 
