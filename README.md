@@ -15,7 +15,7 @@
 - HTML
 - CSS
 
-## Motivational 💬: 
+## 💬 Motivational: 
 ✍️ “Learning to code is learning to create and innovate.”
          —Enda Kenny, Taoiseach, Ireland
 
